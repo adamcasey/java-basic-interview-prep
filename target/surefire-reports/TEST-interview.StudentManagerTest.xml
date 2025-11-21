@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="interview.StudentManagerTest" time="0.011" tests="24" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/adamcasey/Desktop/java-interview-prep/target/test-classes:/Users/adamcasey/Desktop/java-interview-prep/target/classes:/Users/adamcasey/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/adamcasey/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/adamcasey/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/adamcasey/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/adamcasey/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/adamcasey/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/adamcasey/Desktop/java-interview-prep/target/surefire/surefirebooter14338369898497829134.jar /Users/adamcasey/Desktop/java-interview-prep/target/surefire 2025-11-20T16-57-34_624-jvmRun1 surefire9576844274613850889tmp surefire_011478154631955881497tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/adamcasey/Desktop/java-interview-prep/target/test-classes:/Users/adamcasey/Desktop/java-interview-prep/target/classes:/Users/adamcasey/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/adamcasey/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/adamcasey/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/adamcasey/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/adamcasey/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/adamcasey/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/adamcasey"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/adamcasey/Desktop/java-interview-prep"/>
+    <property name="java.vm.compressedOopsMode" value="Non-zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/adamcasey/Desktop/java-interview-prep/target/surefire/surefirebooter14338369898497829134.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="adamcasey"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/adamcasey/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/77/rdpcn34d65lbtltgqb9vbsd40000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/adamcasey/Desktop/java-interview-prep"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/adamcasey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testFindByNameExactCase" classname="interview.StudentManagerTest" time="0.001"/>
+  <testcase name="testFindByNameNotFound" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testAddDuplicateStudent" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testSaveLoadPreservesOrder" classname="interview.StudentManagerTest" time="0.001"/>
+  <testcase name="testGetAllStudentsDefensiveCopy" classname="interview.StudentManagerTest" time="0.001"/>
+  <testcase name="testFindByName" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testRemoveStudentNotFound" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testLoadFromNonexistentFile" classname="interview.StudentManagerTest" time="0.001"/>
+  <testcase name="testAddNullStudent" classname="interview.StudentManagerTest" time="0">
+    <failure message="Should throw exception when adding null student ==&gt; Expected java.lang.NullPointerException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Should throw exception when adding null student ==> Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at interview.StudentManagerTest.testAddNullStudent(StudentManagerTest.java:264)
+</failure>
+  </testcase>
+  <testcase name="testSaveAndLoad" classname="interview.StudentManagerTest" time="0.001"/>
+  <testcase name="testAddStudent" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testLoadFromCorruptedFile" classname="interview.StudentManagerTest" time="0.001"/>
+  <testcase name="testRemoveNullName" classname="interview.StudentManagerTest" time="0.001">
+    <failure message="Should throw exception when removing with null name ==&gt; Expected java.lang.NullPointerException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Should throw exception when removing with null name ==> Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at interview.StudentManagerTest.testRemoveNullName(StudentManagerTest.java:273)
+</failure>
+  </testcase>
+  <testcase name="testGetAverageGpaEmpty" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testGetAllStudents" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testSortByGpa" classname="interview.StudentManagerTest" time="0.001"/>
+  <testcase name="testSortByGpaReturnsNewList" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testGetHonorRollStudentsNone" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testFindByNameCaseInsensitive" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testRemoveStudent" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testGetHonorRollStudents" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testRemoveAllStudents" classname="interview.StudentManagerTest" time="0.001"/>
+  <testcase name="testGetAverageGpa" classname="interview.StudentManagerTest" time="0"/>
+  <testcase name="testSortByGpaSameValue" classname="interview.StudentManagerTest" time="0"/>
+</testsuite>

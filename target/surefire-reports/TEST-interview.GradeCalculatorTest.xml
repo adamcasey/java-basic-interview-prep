@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="interview.GradeCalculatorTest" time="0.006" tests="22" errors="1" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/adamcasey/Desktop/java-interview-prep/target/test-classes:/Users/adamcasey/Desktop/java-interview-prep/target/classes:/Users/adamcasey/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/adamcasey/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/adamcasey/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/adamcasey/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/adamcasey/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/adamcasey/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/adamcasey/Desktop/java-interview-prep/target/surefire/surefirebooter14338369898497829134.jar /Users/adamcasey/Desktop/java-interview-prep/target/surefire 2025-11-20T16-57-34_624-jvmRun1 surefire9576844274613850889tmp surefire_011478154631955881497tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/adamcasey/Desktop/java-interview-prep/target/test-classes:/Users/adamcasey/Desktop/java-interview-prep/target/classes:/Users/adamcasey/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/adamcasey/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/adamcasey/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/adamcasey/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/adamcasey/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/adamcasey/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/adamcasey"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/adamcasey/Desktop/java-interview-prep"/>
+    <property name="java.vm.compressedOopsMode" value="Non-zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/adamcasey/Desktop/java-interview-prep/target/surefire/surefirebooter14338369898497829134.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="adamcasey"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/adamcasey/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/77/rdpcn34d65lbtltgqb9vbsd40000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/adamcasey/Desktop/java-interview-prep"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/adamcasey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testLetterGradeToGPAWithSpaces" classname="interview.GradeCalculatorTest" time="0">
+    <error message="Invalid letter grade:  A- " type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Invalid letter grade:  A- 
+	at interview.GradeCalculatorTest.testLetterGradeToGPAWithSpaces(GradeCalculatorTest.java:197)
+</error>
+  </testcase>
+  <testcase name="testCanMakeDeansList" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCanMakeDeansListAlreadyQualified" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testLetterGradeToGPA" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testPercentageToLetterGrade" classname="interview.GradeCalculatorTest" time="0.001"/>
+  <testcase name="testCalculateWeightedGPAMismatchedCourses" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCalculateWeightedGPA" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCalculateRequiredGPAImpossible" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCalculateSemesterGPAWithInvalidGrades" classname="interview.GradeCalculatorTest" time="0.002">
+    <failure message="Should throw exception for negative grades ==&gt; Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Should throw exception for negative grades ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at interview.GradeCalculatorTest.testCalculateSemesterGPAWithInvalidGrades(GradeCalculatorTest.java:206)
+</failure>
+  </testcase>
+  <testcase name="testCalculateRequiredGPAFirstSemester" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCalculateSemesterGPANull" classname="interview.GradeCalculatorTest" time="0.001"/>
+  <testcase name="testPercentageToLetterGradeInvalid" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCalculateGradeStatisticsMedianEven" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCalculateSemesterGPA" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCalculateRequiredGPAAlreadyMet" classname="interview.GradeCalculatorTest" time="0.001">
+    <failure message="When already above target, required GPA should be 0 or negative ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: When already above target, required GPA should be 0 or negative ==> expected: <true> but was: <false>
+	at interview.GradeCalculatorTest.testCalculateRequiredGPAAlreadyMet(GradeCalculatorTest.java:181)
+]]></failure>
+  </testcase>
+  <testcase name="testPercentage100" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testPercentageToLetterGradeBoundary" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCalculateWeightedGPAEmpty" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testLetterGradeToGPACaseSensitive" classname="interview.GradeCalculatorTest" time="0.001"/>
+  <testcase name="testCalculateRequiredGPA" classname="interview.GradeCalculatorTest" time="0">
+    <failure message="expected: &lt;4.0&gt; but was: &lt;4.5&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <4.0> but was: <4.5>
+	at interview.GradeCalculatorTest.testCalculateRequiredGPA(GradeCalculatorTest.java:49)
+]]></failure>
+  </testcase>
+  <testcase name="testPercentageExactly93" classname="interview.GradeCalculatorTest" time="0"/>
+  <testcase name="testCalculateGradeStatisticsSingleValue" classname="interview.GradeCalculatorTest" time="0"/>
+</testsuite>

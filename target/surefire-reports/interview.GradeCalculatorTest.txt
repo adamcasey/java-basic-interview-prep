@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: interview.GradeCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in interview.GradeCalculatorTest
+testLetterGradeToGPAWithSpaces  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid letter grade:  A- 
+	at interview.GradeCalculatorTest.testLetterGradeToGPAWithSpaces(GradeCalculatorTest.java:197)
+
+testCalculateSemesterGPAWithInvalidGrades  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Should throw exception for negative grades ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at interview.GradeCalculatorTest.testCalculateSemesterGPAWithInvalidGrades(GradeCalculatorTest.java:206)
+
+testCalculateRequiredGPAAlreadyMet  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: When already above target, required GPA should be 0 or negative ==> expected: <true> but was: <false>
+	at interview.GradeCalculatorTest.testCalculateRequiredGPAAlreadyMet(GradeCalculatorTest.java:181)
+
+testCalculateRequiredGPA  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4.0> but was: <4.5>
+	at interview.GradeCalculatorTest.testCalculateRequiredGPA(GradeCalculatorTest.java:49)
+

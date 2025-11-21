@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: interview.StudentManagerTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in interview.StudentManagerTest
+testAddNullStudent  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Should throw exception when adding null student ==> Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at interview.StudentManagerTest.testAddNullStudent(StudentManagerTest.java:264)
+
+testRemoveNullName  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Should throw exception when removing with null name ==> Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at interview.StudentManagerTest.testRemoveNullName(StudentManagerTest.java:273)
+
